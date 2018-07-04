@@ -1,17 +1,20 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import Amplify from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react-native';
+import { awsmobile } from './aws-exports';
 
-export default class App extends React.Component {
+Amplify.configure(awsmobile);
+
+export default withAuthenticator(class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
+        <Text>Amplify Authentication</Text>
       </View>
     );
   }
-}
+});
 
 const styles = StyleSheet.create({
   container: {

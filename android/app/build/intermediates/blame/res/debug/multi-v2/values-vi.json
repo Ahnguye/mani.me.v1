@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ahnguye/Desktop/july18/mani.me.v1/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "map": [
+                {
+                    "source": "/home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/99131b71668c42a86c1a26dff38a44df/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "98",
+                        "endOffsets": "303"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2109",
+                        "endColumns": "102",
+                        "endOffsets": "2207"
+                    }
+                },
+                {
+                    "source": "/home/ahnguye/.gradle/caches/transforms-1/files-1.1/play-services-basement-12.0.1.aar/66e554fd6ee3bc0bc805ddb6c86dbe03/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "194",
+                        "endOffsets": "441"
+                    },
+                    "to": {
+                        "startLines": "19",
+                        "startColumns": "4",
+                        "startOffsets": "1914",
+                        "endColumns": "194",
+                        "endOffsets": "2104"
+                    }
+                },
+                {
+                    "source": "/home/ahnguye/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/a1e5f63bfcc69e52331e9d5b2415143d/res/values-vi/values-vi.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "280,394,502,625,733,842,926,1029,1148,1232,1336,1445,1546,1651,1765,1870,1990,2089",
+                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
+                        "endOffsets": "389,497,620,728,837,921,1024,1143,1227,1331,1440,1541,1646,1760,1865,1985,2084,2185"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,450,558,667,751,854,973,1057,1161,1270,1371,1476,1590,1695,1815,2212",
+                        "endColumns": "113,107,122,107,108,83,102,118,83,103,108,100,104,113,104,119,98,100",
+                        "endOffsets": "214,322,445,553,662,746,849,968,1052,1156,1265,1366,1471,1585,1690,1810,1909,2308"
+                    }
+                }
+            ]
+        }
+    ]
+}
