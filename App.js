@@ -6,15 +6,15 @@ import { awsmobile } from './aws-exports';
 
 Amplify.configure(awsmobile);
 
-export default withAuthenticator(class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Amplify Authentication</Text>
+        <Text></Text>
       </View>
     );
   }
-});
+}
 
 const styles = StyleSheet.create({
   container: {

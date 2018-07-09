@@ -1,0 +1,65 @@
+--- !com.amazonaws.mobilehub.v0.Project 
+features:
+  cloudlogic: !com.amazonaws.mobilehub.v0.CloudLogic 
+    components:
+      userData: !com.amazonaws.mobilehub.v0.API 
+        attributes:
+          description: 'Contains user information '
+          disable-aws-auth: false
+          name: userData
+          requires-signin: false
+          sdk-generation-stage-name: Development
+        paths:
+          /userData: !com.amazonaws.mobilehub.v0.Function 
+            description: 'Handler for calls to resource path : /userData/{proxy+}'
+            environment: {}
+            handler: index.handler
+            hashcode: +OseghAo9ur20IwwGt+dScb9iZZ2dbaznvSLc9vy2zY=
+            memorySize: '128'
+            modified: '2018-07-09T17:26:19.224+0000'
+            name: userData
+            runtime: nodejs6.10
+            timeout: '3'
+            version: m1jrxEz2G5o7hV.B3geheYU0wiURUxeE
+          '/userData/{proxy+}': !com.amazonaws.mobilehub.v0.Function 
+            description: 'Handler for calls to resource path : /userData/{proxy+}'
+            environment: {}
+            handler: index.handler
+            hashcode: +OseghAo9ur20IwwGt+dScb9iZZ2dbaznvSLc9vy2zY=
+            memorySize: '128'
+            modified: '2018-07-09T17:26:19.224+0000'
+            name: userData
+            runtime: nodejs6.10
+            timeout: '3'
+            version: 6zumLM2m0Si_vqgay5u_BOqn4auB44Q4
+  content-delivery: !com.amazonaws.mobilehub.v0.ContentDelivery 
+    attributes:
+      enabled: true
+      visibility: public-global
+    components:
+      release: !com.amazonaws.mobilehub.v0.Bucket {}
+  mobile-analytics: !com.amazonaws.mobilehub.v0.Pinpoint 
+    components:
+      analytics: !com.amazonaws.mobilehub.v0.PinpointAnalytics {}
+  sign-in: !com.amazonaws.mobilehub.v0.SignIn 
+    attributes:
+      enabled: true
+      optional-sign-in: true
+    components:
+      sign-in-user-pools: !com.amazonaws.mobilehub.v0.UserPoolsIdentityProvider 
+        attributes:
+          alias-attributes:
+            - preferred_username
+            - email
+            - phone_number
+          mfa-configuration: OFF
+          name: userpool
+          password-policy: !com.amazonaws.mobilehub.ConvertibleMap 
+            min-length: '8'
+            require-lower-case: true
+            require-numbers: true
+            require-symbols: false
+            require-upper-case: false
+          standard-attributes: '["email","name"]'
+name: mani.me.v1.0.0
+region: us-west-1
