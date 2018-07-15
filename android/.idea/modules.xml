@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/../node_modules/aws-amplify-react-native/android/aws-amplify-react-native.iml" filepath="$PROJECT_DIR$/../node_modules/aws-amplify-react-native/android/aws-amplify-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/aws-amplify-react-native/android/aws-amplify-react-native.iml" filepath="$PROJECT_DIR$/../node_modules/aws-amplify-react-native/android/aws-amplify-react-native.iml" />
       <module fileurl="file://$PROJECT_DIR$/mani.me.v1.iml" filepath="$PROJECT_DIR$/mani.me.v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android/react-native-vector-icons.iml" />
     </modules>
   </component>
 </project>

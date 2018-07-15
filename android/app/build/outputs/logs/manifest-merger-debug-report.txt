@@ -4,14 +4,15 @@ ADDED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidM
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:aws-amplify-react-native] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/aws-amplify-react-native/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.55.4] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ac80b0f8ada8707ad9931b1dbba6e283/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/a1e5f63bfcc69e52331e9d5b2415143d/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-messaging-12.0.1.aar/99131b71668c42a86c1a26dff38a44df/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-core:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/4adffae0685e73e8f0004e3380bb5a84/AndroidManifest.xml:2:1-6:12
 MERGED from [com.firebase:firebase-jobdispatcher:0.6.0] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.6.0.aar/1fdf6ea2230d56548cab2b0ab096f101/AndroidManifest.xml:17:1-42:12
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.23.aar/61973c7b6aa1a2d5f96efc4c87a69dbe/AndroidManifest.xml:2:1-4:80
-MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.23.aar/cfac2779e58cd38a8757b606c73611ce/AndroidManifest.xml:2:1-6:12
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.25.aar/fdadf218d70d999a82ce72f64cc16b5e/AndroidManifest.xml:2:1-4:80
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.25.aar/d45130bb8d4a9edac7e4a29d217a9c27/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/c5afed3543de01bbc8820bde324927ab/AndroidManifest.xml:17:1-54:12
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/5cb5675dbef2aa90a290c2090731cddb/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-iid-12.0.1.aar/84235648867bbfb9b0e8220872bf0750/AndroidManifest.xml:17:1-59:12
@@ -168,6 +169,8 @@ uses-sdk
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/ahnguye/Desktop/july18/mani.me.v1/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/react-native-vector-icons/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:aws-amplify-react-native] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/aws-amplify-react-native/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:aws-amplify-react-native] /home/ahnguye/Desktop/july18/mani.me.v1/node_modules/aws-amplify-react-native/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.4] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/react-native-0.55.4.aar/ac80b0f8ada8707ad9931b1dbba6e283/AndroidManifest.xml:7:5-9:41
@@ -180,10 +183,10 @@ MERGED from [com.google.firebase:firebase-core:12.0.1] /home/ahnguye/.gradle/cac
 MERGED from [com.google.firebase:firebase-core:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-core-12.0.1.aar/4adffae0685e73e8f0004e3380bb5a84/AndroidManifest.xml:4:5-43
 MERGED from [com.firebase:firebase-jobdispatcher:0.6.0] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.6.0.aar/1fdf6ea2230d56548cab2b0ab096f101/AndroidManifest.xml:22:5-24:41
 MERGED from [com.firebase:firebase-jobdispatcher:0.6.0] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-jobdispatcher-0.6.0.aar/1fdf6ea2230d56548cab2b0ab096f101/AndroidManifest.xml:22:5-24:41
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.23.aar/61973c7b6aa1a2d5f96efc4c87a69dbe/AndroidManifest.xml:4:1-69
-MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.23.aar/61973c7b6aa1a2d5f96efc4c87a69dbe/AndroidManifest.xml:4:1-69
-MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.23.aar/cfac2779e58cd38a8757b606c73611ce/AndroidManifest.xml:4:5-73
-MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.23] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.23.aar/cfac2779e58cd38a8757b606c73611ce/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.25.aar/fdadf218d70d999a82ce72f64cc16b5e/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-auth-core:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-auth-core-2.6.25.aar/fdadf218d70d999a82ce72f64cc16b5e/AndroidManifest.xml:4:1-69
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.25.aar/d45130bb8d4a9edac7e4a29d217a9c27/AndroidManifest.xml:4:5-73
+MERGED from [com.amazonaws:aws-android-sdk-mobile-client:2.6.25] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/aws-android-sdk-mobile-client-2.6.25.aar/d45130bb8d4a9edac7e4a29d217a9c27/AndroidManifest.xml:4:5-73
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/c5afed3543de01bbc8820bde324927ab/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-analytics-12.0.1.aar/c5afed3543de01bbc8820bde324927ab/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl:12.0.1] /home/ahnguye/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-12.0.1.aar/5cb5675dbef2aa90a290c2090731cddb/AndroidManifest.xml:20:5-44
